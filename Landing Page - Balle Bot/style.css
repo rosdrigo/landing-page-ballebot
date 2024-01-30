@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+font-size: 100%;
+background: linear-gradient(76.8deg, rgba(156, 72, 118, 0.793) 3.6%, rgb(163, 139, 116) 90.4%);
+
+
+
+
+}
+.cabecalho{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding:20px;
+
+}
+.cabecalhoImg{
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+.cabecalhoMenu{
+    display: flex;
+    gap: 30px;
+}
+.cabecalhoMenu-item{
+font-family: 'Sarala', sans-serif;
+color: #FFF2e7;
+font-weight: 400;
+font-size: 18px;
+
+}
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2e7;
+
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+
+}
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.texto-principal-titulo{
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2e7;
+
+}
+.texto-principal-sub{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+.texto-principal-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 4px 4px #000000;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2f2325;
+    }
+    .texto-principal-botao:hover{
+        background-color: #5865F2;
+        color:#FFF2e7
+
+    }
+    .discordIcon{
+        display: flex;
+        align-items: center;
+        height: 35px;
+        padding: 5px;
+       
+    }
+    .imgPrincipal{
+        height: 430px;
+    }
+    .conteudo-secundario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin-top: 48px;
+    }
+    .texto-secundario-titulo{
+        border-top: 0.4px solid #FFF2e7;
+        padding-top: 48px;
+        font-family: 'Righteous', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2e7;
+        margin-bottom: 16px;
+    }
+    .texto-secundario-p{
+        font-family: 'Sarala', sans-serif;
+color: #ecd6c4;
+font-weight: 300;
+font-size: 18px;
+    }
+    .rodape{
+        padding: 32px;
+        border-top: 0.4px solid #FFF2e7;
+        font-family: 'Righteous', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #ecd6c4;
+        display: block  ;
+        margin: 0 auto  ;
+        text-decoration: none;
+    }
+.rodapezin{
+    color: #FFF2e7;
+}
